@@ -1,0 +1,16 @@
+/home/abhishek/Desktop/DotnetConsole/bin/Debug/net5.0/DotnetConsole
+/home/abhishek/Desktop/DotnetConsole/bin/Debug/net5.0/DotnetConsole.deps.json
+/home/abhishek/Desktop/DotnetConsole/bin/Debug/net5.0/DotnetConsole.runtimeconfig.json
+/home/abhishek/Desktop/DotnetConsole/bin/Debug/net5.0/DotnetConsole.runtimeconfig.dev.json
+/home/abhishek/Desktop/DotnetConsole/bin/Debug/net5.0/DotnetConsole.dll
+/home/abhishek/Desktop/DotnetConsole/bin/Debug/net5.0/ref/DotnetConsole.dll
+/home/abhishek/Desktop/DotnetConsole/bin/Debug/net5.0/DotnetConsole.pdb
+/home/abhishek/Desktop/DotnetConsole/obj/Debug/net5.0/DotnetConsole.csproj.AssemblyReference.cache
+/home/abhishek/Desktop/DotnetConsole/obj/Debug/net5.0/DotnetConsole.GeneratedMSBuildEditorConfig.editorconfig
+/home/abhishek/Desktop/DotnetConsole/obj/Debug/net5.0/DotnetConsole.AssemblyInfoInputs.cache
+/home/abhishek/Desktop/DotnetConsole/obj/Debug/net5.0/DotnetConsole.AssemblyInfo.cs
+/home/abhishek/Desktop/DotnetConsole/obj/Debug/net5.0/DotnetConsole.csproj.CoreCompileInputs.cache
+/home/abhishek/Desktop/DotnetConsole/obj/Debug/net5.0/DotnetConsole.dll
+/home/abhishek/Desktop/DotnetConsole/obj/Debug/net5.0/ref/DotnetConsole.dll
+/home/abhishek/Desktop/DotnetConsole/obj/Debug/net5.0/DotnetConsole.pdb
+/home/abhishek/Desktop/DotnetConsole/obj/Debug/net5.0/DotnetConsole.genruntimeconfig.cache
