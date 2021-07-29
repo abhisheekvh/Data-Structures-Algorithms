@@ -25,7 +25,7 @@ namespace Algorithms
         {
             System.Console.WriteLine("Input the size");
             int size=Convert.ToInt32(Console.ReadLine());
-            System.Console.WriteLine("Input strings");
+            System.Console.WriteLine("Input strings Elements");
             string []str=new string[size];
             for(int i=0;i<size;++i)
                 str[i]=Console.ReadLine();
