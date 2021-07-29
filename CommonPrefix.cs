@@ -30,7 +30,7 @@ namespace Algorithms
             for(int i=0;i<size;++i)
                 str[i]=Console.ReadLine();
             string result=CommonPrefix(str,size);
-            System.Console.WriteLine( "------------------------------------");
+            System.Console.WriteLine( "----------------------------------");
             System.Console.WriteLine("Longest Common Prefix is :"+result);
             
         }
