@@ -1,34 +1,51 @@
 ﻿using System;
 
-namespace recursionPractice
+namespace rotate
 {
     class Program
     {
-       private static string common(string []str)
+        private static void rot(int []arr,int k)
         {
-            int size = str.Length;
-            if (size == 0)
-                return " ";
-            if (size == 1)
-                return str[0];
-             Array.Sort(str);
-            int end = Math.Min(str[0].Length, str[size - 1].Length);
-            int i = 0;
-            while (i < end && str[0][i] == str[size - 1][i])
-                i++;
-            string prev = str[0].Substring(0, i);
-            return prev;
+            int place = (arr.Length) - k;
+            int[] a1 = new int[place];
+            int[] a2 = new int[k];
+            int[] tmp = new int[arr.Length];
+            int a = 0, b = 0, c = 0;
+            k = k % arr.Length;
+            for(int i=0;i<arr.Length;i++)
+            {
+                if(i<place)
+                {
+                    a1[a] = arr[i];
+                    a++;
+                }
+                else
+                {
+                    a2[b] = arr[i];
+                    b++;
+                }
+            }
+            int l = 0;
+            while(c<a2.Length)
+            {
+                tmp[l++] = a2[c++];
+            }
+            c = 0;
+            while(c<a1.Length)
+            {
+                tmp[l++] = a1[c++];
+            }
+            for(int i=0;i<tmp.Length;i++)
+            {
+                Console.Write(tmp[i]+ " ");
+            }
 
         }
-        
         static void Main(string[] args)
         {
-            string[] arr = { "glower","gmow","glo" };
-            string res = common(arr);
-            Console.WriteLine(res);
-            
+            int[] arr = { 1,2,3,4,5};
+            rot(arr, 2);
             Console.Read();
-
         }
     }
 }
